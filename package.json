@@ -1,0 +1,30 @@
+{
+  "name": "koa-typescript-starter",
+  "version": "1.0.0",
+  "description": "Weekend learning project to help me learn about Koa web framework, Typescript, async/await and how to put everything together.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "typescript",
+    "async",
+    "await"
+  ],
+  "author": "Augustinas Markevicius <augustinas.markevicius@hatdex.org> (http://www.hatdex.org)",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-router": "^7.0.22",
+    "ts-node": "^3.2.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.4.1"
+  }
+}
